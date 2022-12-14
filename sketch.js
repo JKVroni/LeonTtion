@@ -106,12 +106,12 @@ function preload() {
   hurdleBelow = loadImage("assets/hurdleBelow.png");
   magma = loadImage("assets/magma.png");
   bug = loadImage("assets/bug.png");
-  leonHPImg = loadImage("assets/LeonHeart.png");
+  leonHPImg = loadImage("assets/leonHeart.png");
   leonBulletImg = loadImage("assets/bullet.png");
   bullet = loadImage("assets/bullet.png");
   enemyBullet = loadImage("assets/bullet.png");
-  ttionBulletImg = loadImage("assets/TtionBullet.png");
-  ttionHPImg = loadImage("assets/TtionHeart.png");
+  ttionBulletImg = loadImage("assets/ttionBullet.png");
+  ttionHPImg = loadImage("assets/ttionHeart.png");
   fever = loadImage("assets/fever.png");
   //레옹
   for (i = 0; i < 2; i++) {
@@ -138,7 +138,7 @@ function preload() {
   for (i = 0; i < 2; i++) {
     stanImg[i] = loadImage("assets/stan" + i + ".png");
   }
-  HPImg = loadImage("assets/HPImg.png");
+  HPImg = loadImage("assets/hPImg.png");
   bulletFiredStan = loadImage("assets/bulletFiredStan.png");
   caveug = loadImage("assets/caveug.png");
   // stanImg = loadImage('assets/stan'+0+'.png');
@@ -155,9 +155,9 @@ function preload() {
   ttionDamagedSound = loadSound("assets/ttionDamagedSound.wav");
   ttionBulletEatSound = loadSound("assets/ttionBulletEatSound.mp3");
   leonFireSound = loadSound("assets/leonFireSound.mp3");
-  enemyShotSound = loadSound("assets/EnemyShotSound.wav");
+  enemyShotSound = loadSound("assets/enemyShotSound.wav");
   leonDamagedSound = loadSound("assets/leonDamagedSound.mp3");
-  bombSound = loadSound("assets/BombSound.WAV");
+  bombSound = loadSound("assets/bombSound.WAV");
   stanLaughingSound = loadSound("assets/stanLaughingSound.mp3");
   gameOverSound = loadSound("assets/gameOverSound.mp3");
   stanAppearSound = loadSound("assets/stanAppearSound.mp3");
@@ -166,18 +166,18 @@ function preload() {
   //스테이지용 프리로드
   //인터랙션
   start = loadImage("assets/start page.png");
-  m1_C1 = loadImage("assets/M1_C1.png");
-  m1_C2 = loadImage("assets/M1_C2.png");
-  m1_C3_1 = loadImage("assets/M1_C3_1.png");
-  m1_C3_2 = loadImage("assets/M1_C3_2.png");
-  m1_C4_1 = loadImage("assets/M1_C4_1.png");
-  m1_C4_2 = loadImage("assets/M1_C4_2.png");
-  m1_C5 = loadImage("assets/M1_C5.png");
-  m2_C1_1 = loadImage("assets/M2_C1_1.png");
-  m2_C1_2 = loadImage("assets/M2_C1_2.png");
-  m2_C2 = loadImage("assets/M2_C2.png");
-  m3_C1 = loadImage("assets/M3_C1.png");
-  m3_C2 = loadImage("assets/M3_C2.png");
+  m1_C1 = loadImage("assets/m1_C1.png");
+  m1_C2 = loadImage("assets/m1_C2.png");
+  m1_C3_1 = loadImage("assets/m1_C3_1.png");
+  m1_C3_2 = loadImage("assets/m1_C3_2.png");
+  m1_C4_1 = loadImage("assets/m1_C4_1.png");
+  m1_C4_2 = loadImage("assets/m1_C4_2.png");
+  m1_C5 = loadImage("assets/m1_C5.png");
+  m2_C1_1 = loadImage("assets/m2_C1_1.png");
+  m2_C1_2 = loadImage("assets/m2_C1_2.png");
+  m2_C2 = loadImage("assets/m2_C2.png");
+  m3_C1 = loadImage("assets/m3_C1.png");
+  m3_C2 = loadImage("assets/m3_C2.png");
   die = loadImage("assets/you died.png");
   end = loadImage("assets/the end.png");
   restart = loadImage("assets/restart.png");
